@@ -20,12 +20,12 @@ function About() {
           We believe the mix of strategy and design (with a bit of coffee) is
           what makes your message clear, convincing, and captivating.
         </p>
-       <div className="socials mt-20 w1/2 ml-20">
+       <div className="socials mt-20 w-1/2 ml-20 flex flex-col max-w-[5.5vw]">
        <p>S:</p>
-        <p className="underline">Instagram</p>
-        <p className="underline">Behance</p>
-        <p className="underline">Facebook</p>
-        <p className="underline">Linkedin</p>
+        <p className="underline hvr-underline-from-left">Instagram</p>
+        <p className="underline hvr-underline-from-left">Behance</p>
+        <p className="underline hvr-underline-from-left">Facebook</p>
+        <p className="underline hvr-underline-from-left">Linkedin</p>
        </div>
     
       </div>
@@ -33,7 +33,7 @@ function About() {
       <div className="w-full flex gap-5 border-t-[1px] mt-20 border-[#93a655]">
         <div className="w-1/2 ">
           <h1 className="text-5xl pt-10">Our approach:</h1>
-          <button className="flex gap-[2.5rem] items-center px-[2.5rem] py-[1.25rem] bg-zinc-900 rounded-full text-white mt-5 uppercase">
+          <button className="flex hvr-sweep-to-top overflow-hidden gap-[2.5rem] items-center px-[2.5rem] py-[1.25rem] bg-zinc-900 rounded-full text-white mt-5 uppercase">
             Read More
             <div className="w-2 h-2 bg-zinc-100 rounded-full"></div>
           </button>
